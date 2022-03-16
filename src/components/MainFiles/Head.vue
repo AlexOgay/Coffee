@@ -111,7 +111,7 @@ export default {
 
 .header .navbar a{
     margin:0 1rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color:#fff;
     text-transform: uppercase;
 }
