@@ -8,6 +8,8 @@
         v-for="post in posts"
         :post='post'
         :key='post.id'/>
+    </div>
+    <div class="btn-container">
         <button class="btn" @click="$emit('LoadNext')">Load next...</button>
         <button class="btn" @click="$emit('LoadPrev')">Load prev...</button>
     </div>
@@ -44,6 +46,9 @@ export default {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap:1.5rem;
 }
-
+.products .btn-container{
+    display: flex;
+    justify-content: space-around;
+}
 
 </style>
